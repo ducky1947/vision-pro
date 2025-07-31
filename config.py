@@ -16,7 +16,7 @@ INTRUDER_ENCODINGS_FILE = "intruder_encodings.pkl" # Used in intruder_tracker.py
 
 # --- Debounce Times (in seconds) ---
 # Time in seconds for capturing intruder images and logging "Unknown" faces.
-UNKNOWN_CAPTURE_DEBOUNCE_TIME = 10# From gpt31standalone.py 
+UNKNOWN_CAPTURE_DEBOUNCE_TIME = 10 # From gpt31standalone.py 
 # Time in seconds per person for logging known faces.
 KNOWN_FACE_LOG_DEBOUNCE_TIME = 25   # From gpt31standalone.py 
 
@@ -25,6 +25,16 @@ KNOWN_FACE_LOG_DEBOUNCE_TIME = 25   # From gpt31standalone.py
 FACE_DETECTION_MODEL = "hog" # From gpt31standalone.py 
 # Matching tolerance (lower = stricter match, fewer false positives).
 RECOGNITION_TOLERANCE = 0.6 # From gpt31standalone.py 
+
+# --- Camera Performance Settings (NEW SECTION) ---
+# Desired camera frame width and height. Note: IP cameras might override these.
+# Common options: (320, 240) - Low, (640, 480) - Medium, (1280, 720) - High
+CAMERA_FRAME_WIDTH = 320 # Default to your current setting for consistency
+CAMERA_FRAME_HEIGHT = 240 # Default to your current setting for consistency
+
+# Number of frames to skip before processing (face detection/recognition).
+# 1 = process every frame, 2 = process every 2nd frame, 4 = process every 4th frame (your current)
+FRAME_PROCESS_SKIP_RATE = 4 # Default to your current setting
 
 # --- Email Configuration ---
 EMAIL_CONFIG = { # From gpt31standalone.py 

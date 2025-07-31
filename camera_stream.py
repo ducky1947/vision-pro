@@ -65,8 +65,11 @@ class CameraStream:
 
         self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1) 
         
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
+        # --- CAMERA RESOLUTION SETTINGS (NOW FROM CONFIG) ---
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, config.CAMERA_FRAME_WIDTH)  # Use config
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, config.CAMERA_FRAME_HEIGHT) # Use config
+        print(f"DEBUG: Camera {self.camera_input}: Attempting to set resolution to {config.CAMERA_FRAME_WIDTH}x{config.CAMERA_FRAME_HEIGHT}.", flush=True)
+        # --- END CAMERA RESOLUTION SETTINGS ---
 
         print(f"DEBUG: Camera {self.camera_input}: Reader thread capture device opened.", flush=True)
 
@@ -135,7 +138,7 @@ class CameraStream:
 
             frame_counter += 1
 
-            process_this_frame = (frame_counter % 4 == 0)
+            process_this_frame = (frame_counter % config.FRAME_PROCESS_SKIP_RATE == 0) # Use config
 
             drawn_frame = frame.copy() 
 
