@@ -1,0 +1,17 @@
+NAME                      | GENDER   | DAY    | DATE         | TIME     | IMAGE_LINK
+--------------------------+----------+--------+--------------+----------+-----------
+kewal                     | male     | Thu    | 2025-07-31   | 14:27:40 | N/A
+Intruder_1                | Intruder | Thu    | 2025-07-31   | 14:28:10 | intruders\intruder_20250731_142810_119777.jpg
+Intruder_1                | Intruder | Thu    | 2025-07-31   | 14:28:16 | intruders\intruder_20250731_142816_202143.jpg
+Intruder_2                | Intruder | Thu    | 2025-07-31   | 14:28:34 | intruders\intruder_20250731_142834_649175.jpg
+chandrakant               | male     | Thu    | 2025-07-31   | 14:28:37 | N/A
+Intruder_2                | Intruder | Thu    | 2025-07-31   | 14:28:39 | intruders\intruder_20250731_142839_978427.jpg
+Intruder_3                | Intruder | Thu    | 2025-07-31   | 14:28:58 | intruders\intruder_20250731_142858_121218.jpg
+Intruder_3                | Intruder | Thu    | 2025-07-31   | 14:29:03 | intruders\intruder_20250731_142903_412297.jpg
+chandrakant               | male     | Thu    | 2025-07-31   | 14:29:28 | N/A
+kewal                     | male     | Thu    | 2025-07-31   | 14:53:57 | N/A
+Intruder_4                | Intruder | Thu    | 2025-07-31   | 14:54:00 | intruders\intruder_20250731_145400_443341.jpg
+Intruder_4                | Intruder | Thu    | 2025-07-31   | 14:54:11 | intruders\intruder_20250731_145411_467559.jpg
+kewal                     | male     | Thu    | 2025-07-31   | 14:54:23 | N/A
+Intruder_4                | Intruder | Thu    | 2025-07-31   | 14:54:24 | intruders\intruder_20250731_145424_445783.jpg
+kewal                     | male     | Thu    | 2025-07-31   | 14:54:36 | N/A
