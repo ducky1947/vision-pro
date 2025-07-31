@@ -1,7 +1,6 @@
 NAME                      | GENDER   | DAY    | DATE         | TIME     | IMAGE_LINK
 
 --------------------------+----------+--------+--------------+----------+--------------------------------------------------
-
 Intruder_908              | Intruder | Thu   | 2025-07-31  | 14:27:51 | intruders\intruder_20250731_142751_536142.jpg
 kewal                     | male     | Thu   | 2025-07-31  | 14:28:02 | N/A
 chandrakant               | male     | Thu   | 2025-07-31  | 14:28:08 | N/A
@@ -115,3 +114,4 @@ kewal                     | male     | Thu    | 2025-07-31   | 14:53:57 | N/A
 kewal                     | male     | Thu    | 2025-07-31   | 14:54:23 | N/A
 kewal                     | male     | Thu    | 2025-07-31   | 14:54:36 | N/A
 kewal                     | male     | Thu    | 2025-07-31   | 15:35:41 | N/A
+
