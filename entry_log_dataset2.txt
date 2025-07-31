@@ -113,3 +113,6 @@ kewal                     | male     | Thu    | 2025-07-31   | 14:53:57 | N/A
 kewal                     | male     | Thu    | 2025-07-31   | 14:54:23 | N/A
 kewal                     | male     | Thu    | 2025-07-31   | 14:54:36 | N/A
 kewal                     | male     | Thu    | 2025-07-31   | 15:35:41 | N/A
+kewal                     | male     | Thu    | 2025-07-31   | 16:44:19 | N/A
+Intruder_4                | Intruder | Thu    | 2025-07-31   | 16:44:25 | intruders\intruder_20250731_164425_412942.jpg
+chaitali                  | female   | Thu    | 2025-07-31   | 16:44:26 | N/A
