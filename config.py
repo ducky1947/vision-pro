@@ -53,8 +53,8 @@ USB_WEBCAM_INDICES = [] # Add your USB camera indices here, e.g., [0]
 
 # For IP cameras, add their full stream URLs (RTSP, HTTP, etc.).
 IP_CAMERA_URLS = [ # From gpt31standalone.py 
-    "http://10.34.241.31:8080/video",  # Example: IP Camera 1
-    "http://10.34.241.77:8080/video",  # Example: IP Camera 1 
+    "http://192.168.6.58:8080/video",  # Example: IP Camera 1
+    #"http://10.34.241.77:8080/video",  # Example: IP Camera 1 
     
 ]
 
